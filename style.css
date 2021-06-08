@@ -108,7 +108,13 @@ Version: 0.0.1
 
 
 
-
+.comic_seq_1 {
+	position: relative;
+	top: -48vw;
+	width: 56vw;
+	left: 22vw;
+	display: block;
+}
 
 
 
