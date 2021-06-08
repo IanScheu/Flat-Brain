@@ -54,12 +54,22 @@ Version: 0.0.1
 }
 
 
+.white-background {
+	position: absolute;
+	top: 40vw;
+	width: 82vw;
+	left: 9vw;
+	display: block;
+}
+
+
 
 .index-button {
 	position: fixed;
 	width: 12vw;
 	left: 1vw;
 	top: 1vw;
+	z-index: 10;
 }
 
 .flatbrain-window {
