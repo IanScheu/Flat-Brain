@@ -87,6 +87,14 @@ Version: 0.0.1
 	display: block;
 	top: -10vw;
 }
+.hand {
+	position: relative;
+	top: 5vw;
+	width: 35vw;
+	left: -3vw;
+	display: block;
+	top: -45vw;
+}
 
 
 
