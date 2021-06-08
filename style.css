@@ -1,0 +1,123 @@
+/*
+Theme Name: Flat Brain
+Author: Berglind Brá Jóhannsdóttir
+Version: 0.0.1
+*/
+
+
+/* NOTES */
+/*
+
+*/
+
+
+
+
+
+
+
+
+/* ///////  BASIC  /////// */
+	@font-face {font-family: ortica; src: url(Ortica-Light.woff);}
+	@font-face {font-family: mazius; src: url(MAZIUSREVIEW20.09-Extraitalic.woff);}
+	@-ms-viewport{width: device-width; height: device-height;}
+
+	body {
+		-webkit-font-smoothing: antialiased;
+		-moz-font-smoothing: antialiased;
+		-o-font-smoothing: antialiased;
+		-webkit-overflow-scrolling: touch;
+
+		background-color: #D7F7FF;
+	}
+	
+	a {
+		text-decoration: none;
+		cursor: pointer !important;
+	}
+	a:hover {text-decoration: underline;}
+
+/* ////////////////////// */
+
+
+
+
+
+
+.container {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100vw;
+	min-height: 100vh;
+	
+}
+
+
+
+.index-button {
+	position: fixed;
+	width: 12vw;
+	left: 1vw;
+	top: 1vw;
+}
+
+.flatbrain-window {
+	position: relative;
+	top: 5vw;
+	width: 45vw;
+	left: 35vw;
+	display: block;
+	z-index: 1;
+}
+
+.why-window {
+	position: relative;
+	top: 5vw;
+	width: 42vw;
+	left: 18vw;
+	display: block;
+	top: -4vw;
+}
+.intro-window {
+	position: relative;
+	top: 5vw;
+	width: 45vw;
+	left: 37vw;
+	display: block;
+	top: -10vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 800px) {
+	.mobile {display: none;}
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+	.desktop {display: none;}
+
+}
+
+@media screen and (min-width: 1100px){
+
+}
