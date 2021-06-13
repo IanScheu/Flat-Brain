@@ -115,35 +115,17 @@ Version: 0.0.1
 	left: 22vw;
 	display: block;
 }
+
+
+
 .comic_seq_2-container {
 	position: relative;
 	top: -48vw;
-	width: 100vw;
-	left: 0vw;
+	width: 58vw !important;
+	left: 26.5vw;
 	display: block;
+	cursor: pointer;
 }
-.comic_seq_2 {
-	position: absolute;
-	top: 0vw;
-	width: 58vw;
-	left: 26.5vw;
-}
-.comic_seq_2-button {
-	position: absolute;
-	top: -15px;
-	width: 58vw;
-	left: calc(26.5vw + 15px);
-	transition-duration: 0.5s;
-}
-.comic_seq_2-button:hover {
-	top: 0vw;
-	left: 26.5vw;
-}
-
-
-
-
-
 
 
 
