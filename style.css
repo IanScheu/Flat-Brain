@@ -47,8 +47,7 @@ Version: 0.0.1
 	left: 0px;
 	top: 0px;
 	width: 100vw;
-	min-height: 100vh;
-	
+	min-height: 100vh;	
 }
 
 
@@ -60,8 +59,6 @@ Version: 0.0.1
 	display: block;
 }
 
-
-
 .index-button {
 	position: fixed;
 	width: 12vw;
@@ -70,91 +67,130 @@ Version: 0.0.1
 	z-index: 10;
 }
 
-.flatbrain-window {
-	position: relative;
-	top: 5vw;
-	width: 45vw;
-	left: 35vw;
-	display: block;
-	z-index: 1;
-}
 
-.why-window {
+.svg-object {
 	position: relative;
-	top: 5vw;
-	width: 42vw;
-	left: 18vw;
-	display: block;
-	top: -4vw;
-}
-.intro-window {
-	position: relative;
-	top: 5vw;
-	width: 45vw;
-	left: 37vw;
-	display: block;
-	top: -10vw;
-}
-.hand {
-	position: relative;
-	top: 5vw;
-	width: 35vw;
-	left: -3vw;
-	display: block;
-	top: -45vw;
-}
-
-
-
-.comic_seq_1 {
-	position: relative;
-	top: -48vw;
-	width: 56vw;
-	left: 22vw;
-	display: block;
-}
-
-.comic_seq_2-container {
-	position: relative;
-	top: -48vw;
-	width: 58vw !important;
-	left: 26.5vw;
-	display: block;
-	cursor: pointer;
-}
-
-.comic_seq_3 {
-	position: relative;
-	top: -38vw;
-	width: 50vw;
-	left: 25vw;
-	display: block;
-}
-
-.comic_seq_4 {
-	position: relative;
-	top: -30vw;
-	width: 50vw;
-	left: 25vw;
 	display: block;
 }
 
 
-.footnote_1 {
-	position: relative;
-	top: -17vw;
-	width: 30vw;
-	left: 11vw;
-	display: block;
-}
 
-.comic_seq_5 {
-	position: relative;
-	top: -30vw;
-	width: 35vw;
-	left: 50vw;
-	display: block;
-}
+
+/*   PAGE 1    */
+	.flatbrain-window {
+		top: 5vw;
+		width: 45vw;
+		left: 35vw;
+		z-index: 1;
+	}
+
+	.why-window {
+		width: 42vw;
+		left: 18vw;
+		top: -4vw;
+	}
+	.intro-window {
+		width: 45vw;
+		left: 37vw;
+		top: -10vw;
+	}
+	.hand {
+		width: 35vw;
+		left: -3vw;
+		top: -45vw;
+	}
+
+
+	.comic_seq_1 {
+		top: -48vw;
+		width: 56vw;
+		left: 22vw;
+	}
+
+	.comic_seq_2-container {
+		top: -48vw;
+		width: 58vw !important;
+		left: 26.5vw;
+	}
+	#button {
+		cursor: pointer;
+	}
+	.comic_seq_3 {
+		top: -38vw;
+		width: 50vw;
+		left: 25vw;
+	}
+
+	.comic_seq_4 {
+		top: -30vw;
+		width: 50vw;
+		left: 25vw;
+	}
+
+	.footnote_1 {
+		top: -17vw;
+		width: 30vw;
+		left: 11vw;
+	}
+
+	.comic_seq_5 {
+		top: -30vw;
+		width: 35vw;
+		left: 50vw;
+	}
+
+
+
+
+
+
+/*   PAGE 2    */
+
+	.title-2 {
+		top: 8vw;
+		width: 42vw;
+		left: 18vw;
+	}
+	.comic_seq_1-2 {
+		top: 12vw;
+		width: 33vw;
+		left: 9.9vw;
+	}
+	.flat_sign {
+		top: 15vw;
+		width: 50vw;
+		left: 38.55vw;
+	}
+	.comic_seq_2-2 {
+		top: 40vw;
+		width: 50vw;
+		left: 38.55vw;
+	}
+	.comic_seq_3-2 {
+		top: 65vw;
+		width: 64.5vw;
+		left: 12vw;
+	}
+	.comic_seq_4-2 {
+		top: 72vw;
+		width: 34vw;
+    	left: 54.65vw;
+	}
+	.comic_seq_5-2 {
+		top: 85vw;
+		width: 64.5vw;
+		left: 12vw;
+	}
+	.comic_seq_6-2 {
+		top: 92vw;
+		width: 75vw;
+		left: 13.6vw;
+	}
+	.end_2-container {
+		top: 110vw;
+		width: 65vw !important;
+		left: 16.5vw;
+	}
 
 
 
