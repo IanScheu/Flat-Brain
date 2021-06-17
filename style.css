@@ -138,7 +138,67 @@ Version: 0.0.1
 		width: 35vw;
 		left: 50vw;
 	}
+	.comic_seq_6-container {
+		top: -23vw;
+		width: 60vw;
+		left: 18vw;
+	}
+	.head-container {
+		position: absolute;
+	    width: 16%;
+	    height: 17%;
+	    top: 4.63%;
+	    left: 52.83%;
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	}
+	.head-one {background-image: url(outfit/head1.svg);}
+	.head-two {background-image: url(outfit/head2.svg);}
+	.head-three {background-image: url(outfit/head3.svg);}
 
+	.body-container {
+		position: absolute;
+	    width: 16%;
+	    height: 17%;
+	    top: 16.6%;
+	    left: 52.95%;
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	}
+	.body-one {background-image: url(outfit/body1.svg);}
+	.body-two {background-image: url(outfit/body2.svg);}
+	.body-three {background-image: url(outfit/body3.svg);}
+
+
+	.pants-container {
+		position: absolute;
+	    width: 16%;
+	    height: 40%;
+	    top: 31.2%;
+	    left: 52.95%;
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	}
+	.pants-one {background-image: url(outfit/pants1.svg);}
+	.pants-two {background-image: url(outfit/pants2.svg);}
+	.pants-three {background-image: url(outfit/pants3.svg);}
+
+	.next-button{cursor: pointer; z-index: 99;}
+	.next-button:hover {fill: #FF931E;}
+	.nextA-two,
+	.nextA-three,
+	.prevA-two,
+	.prevA-three,
+	.nextB-two,
+	.nextB-three,
+	.prevB-two,
+	.prevB-three,
+	.nextC-two,
+	.nextC-three,
+	.prevC-two,
+	.prevC-three {display: none;}
+
+	
 
 
 
