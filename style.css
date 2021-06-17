@@ -200,6 +200,20 @@ Version: 0.0.1
 
 	
 
+	.comic_seq_7 {
+		top: -7vw;
+		width: 35vw;
+		left: 20vw;
+	}
+
+	.anatomy-container {
+		top: 13vw;
+		width: 57vw;
+		left: 22vw;
+	}
+
+	.non-function {pointer-events: none;}
+	.anatomy-detail {opacity: 0;}
 
 
 

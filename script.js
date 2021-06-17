@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 
-      // HEAD
+    // HEAD
       $('.nextA-one').click(function(){
           $('.nextA-one').hide();
           $('.nextA-two').show();
@@ -80,10 +80,7 @@ $(document).ready(function(){
           $('.head-container').addClass('head-one');
       });
 
-
-
-
-      // Body
+    // BODY
       $('.nextB-one').click(function(){
           $('.nextB-one').hide();
           $('.nextB-two').show();
@@ -162,10 +159,7 @@ $(document).ready(function(){
           $('.body-container').addClass('body-one');
       });
 
-
-
-
-      // Pants
+    // PANTS
       $('.nextC-one').click(function(){
           $('.nextC-one').hide();
           $('.nextC-two').show();
@@ -243,4 +237,43 @@ $(document).ready(function(){
           $('.pants-container').removeClass('pants-two');
           $('.pants-container').addClass('pants-one');
       });
+});
+
+
+
+$(function() {
+  $('.arm-trigger').hover(function() {
+    $('#arm-hover').css('opacity', '1');
+  }, function() {
+    // on mouseout, reset the background colour
+    $('#arm-hover').css('opacity', '0');
+  });
+
+  $('.crotch-trigger').hover(function() {
+    $('#crotch-hover').css('opacity', '1');
+  }, function() {
+    // on mouseout, reset the background colour
+    $('#crotch-hover').css('opacity', '0');
+  });
+
+  $('.head-trigger').hover(function() {
+    $('#head-hover').css('opacity', '1');
+  }, function() {
+    // on mouseout, reset the background colour
+    $('#head-hover').css('opacity', '0');
+  });
+
+  $('.heart-trigger').hover(function() {
+    $('#heart-hover').css('opacity', '1');
+  }, function() {
+    // on mouseout, reset the background colour
+    $('#heart-hover').css('opacity', '0');
+  });
+
+  $('.head-right-trigger').hover(function() {
+    $('#head-right-hover').css('opacity', '1');
+  }, function() {
+    // on mouseout, reset the background colour
+    $('#head-right-hover').css('opacity', '0');
+  });
 });
