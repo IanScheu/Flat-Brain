@@ -46,19 +46,29 @@ Version: 0.0.1
 
 
 
-
-
-.container {
+.P1, .P2, .P3, .P4 {
 	position: absolute;
-	top: 0px;
 	width: 100vw;
-	min-height: 100vh;
+	height: 100vh;
+	top: 0px;
+	overflow: scroll;
 }
 
 .P1 {left: 0px;}
 .P2 {left: 100vw;}
 .P3 {left: 200vw;}
 .P4 {left: 300vw;}
+
+
+.container {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	min-height: 100vh;
+}
+
+
 
 .to-p2 {
 	width: 14vw;
@@ -370,12 +380,22 @@ Version: 0.0.1
 
 
 
+	/* SLIDE IN 
+	.first-popup {
+		top: 13vw;
+	    width: 87vw;
+	    left: 16vw;
+	}
+	#news1 {display: none; transition: 1s ease; transition-delay: 0.3s; transform: translateX(1300px);}*/
+
+
+	/* opacity */
 	.first-popup {
 		top: 13vw;
 	    width: 67vw;
 	    left: 16vw;
 	}
-	/*#news1 {display: none;}*/
+	#news1 {display: none; transition: 1s ease; transition-delay: 0.3s; opacity: 0;}
 
 
 

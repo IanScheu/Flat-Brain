@@ -276,6 +276,22 @@ $(function() {
     // on mouseout, reset the background colour
     $('#head-right-hover').css('opacity', '0');
   });
+
+
+
+
+
+
+   /* SLIDE IN
+   $('.button-company').click(function(){
+          $('#news1').show();
+          $('#news1').css('transform', 'translateX(-500px)');
+      });*/
+
+  $('.button-company').click(function(){
+          $('#news1').show();
+          $('#news1').css('opacity', '1');
+      });
 });
 
 
