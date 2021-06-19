@@ -26,6 +26,8 @@ Version: 0.0.1
 		-o-font-smoothing: antialiased;
 		-webkit-overflow-scrolling: touch;
 
+		/*overflow-x: hidden;*/
+
 		background-color: #D7F7FF;
 	}
 	
@@ -34,6 +36,10 @@ Version: 0.0.1
 		cursor: pointer !important;
 	}
 	a:hover {text-decoration: underline;}
+
+	  html {
+	    scroll-behavior: smooth;
+	  }
 
 /* ////////////////////// */
 
@@ -44,11 +50,27 @@ Version: 0.0.1
 
 .container {
 	position: absolute;
-	left: 0px;
 	top: 0px;
 	width: 100vw;
-	min-height: 100vh;	
+	min-height: 100vh;
 }
+
+.P1 {left: 0px;}
+.P2 {left: 100vw;}
+.P3 {left: 200vw;}
+.P4 {left: 300vw;}
+
+.to-p2 {
+	width: 14vw;
+    height: 5.7vh;
+    z-index: -9;
+    top: -43.7vw;
+    left: 66.4vw;
+    display: none;
+}
+
+
+
 
 
 .white-background {
@@ -65,6 +87,7 @@ Version: 0.0.1
 	left: 1vw;
 	top: 1vw;
 	z-index: 10;
+	cursor: pointer;
 }
 
 
@@ -151,6 +174,7 @@ Version: 0.0.1
 	    left: 52.83%;
 	    background-repeat: no-repeat;
 	    background-size: contain;
+	    transition: 0.5s ease;
 	}
 	.head-one {background-image: url(outfit/head1.svg);}
 	.head-two {background-image: url(outfit/head2.svg);}
@@ -164,6 +188,7 @@ Version: 0.0.1
 	    left: 52.95%;
 	    background-repeat: no-repeat;
 	    background-size: contain;
+	    transition: 0.5s ease;
 	}
 	.body-one {background-image: url(outfit/body1.svg);}
 	.body-two {background-image: url(outfit/body2.svg);}
@@ -178,6 +203,7 @@ Version: 0.0.1
 	    left: 52.95%;
 	    background-repeat: no-repeat;
 	    background-size: contain;
+	    transition: 0.5s ease;
 	}
 	.pants-one {background-image: url(outfit/pants1.svg);}
 	.pants-two {background-image: url(outfit/pants2.svg);}
@@ -292,6 +318,65 @@ Version: 0.0.1
 		width: 65vw !important;
 		left: 16.5vw;
 	}
+
+
+
+
+
+
+
+/*   PAGE 3    */
+
+	.title-3 {
+		top: 7vw;
+		width: 42vw;
+		left: 42vw;
+	}
+	.first_part_3 {
+		top: 10vw;
+	    width: 78vw;
+	    left: 9.9vw;
+	}
+
+
+
+
+
+
+/*   PAGE 4    */
+
+	.title-4 {
+	    top: 9vw;
+	    width: 42vw;
+	    left: 18vw;
+	    z-index: 9;
+	}
+
+	.comic_seq_1-4 {
+		top: -14vw;
+	    width: 78.6vw;
+	    left: 9.95vw;
+	}
+	.comic_seq_2-4 {
+		top: -5vw;
+	    width: 64vw;
+	    left: 18vw;
+	}
+	.comic_seq_3-4 {
+		top: 4vw;
+	    width: 64vw;
+	    left: 18vw;
+	}
+
+
+
+	.first-popup {
+		top: 13vw;
+	    width: 67vw;
+	    left: 16vw;
+	}
+	/*#news1 {display: none;}*/
+
 
 
 

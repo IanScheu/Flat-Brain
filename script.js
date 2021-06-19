@@ -277,3 +277,22 @@ $(function() {
     $('#head-right-hover').css('opacity', '0');
   });
 });
+
+
+
+
+
+/*
+$(function () {
+
+  $('a[href^="#"]').click(function( ) {
+      
+      $('html, body').animate({
+          'scrollLeft': $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().left;
+          'scrollTop': $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top;
+      }, 500);
+
+      return false;
+  });
+});
+*/
