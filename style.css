@@ -380,23 +380,86 @@ Version: 0.0.1
 
 
 
-	/* SLIDE IN 
-	.first-popup {
-		top: 13vw;
-	    width: 87vw;
-	    left: 16vw;
-	}
-	#news1 {display: none; transition: 1s ease; transition-delay: 0.3s; transform: translateX(1300px);}*/
 
-
-	/* opacity */
 	.first-popup {
-		top: 13vw;
+		top: 20vw;
 	    width: 67vw;
 	    left: 16vw;
+	    z-index: 9;
 	}
-	#news1 {display: none; transition: 1s ease; transition-delay: 0.3s; opacity: 0;}
+	#news1, #news2, #news3, #news4, #news5, #news6 {display: none; transition: 1s ease; transition-delay: 0.3s; opacity: 0;}
 
+
+	.comic_seq_4-4 {
+		top: 2vw;
+    	width: 77vw;
+    	left: 10vw;
+	}
+
+
+	.second-popup {
+		top: 3vw;
+		width: 67vw;
+	    left: 18vw;
+	    z-index: 9;
+	}
+
+
+	.comic_seq_5-4 {
+	    top: 1vw;
+	    width: 82.6vw;
+	    left: 6vw;
+	}
+
+
+	.third-popup {
+		top: 4vw;
+		width: 67vw;
+	    left: 18vw;
+	    z-index: 9;
+	}
+
+	.comic_seq_6-4 {
+	    top: -22vw;
+	    width: 76vw;
+	    left: 10vw;
+	}
+
+
+	.fourth-popup {
+		top: -17vw;
+		width: 68vw;
+	    left: 16vw;
+	    z-index: 9;
+	}
+
+	.comic_seq_7-4 {
+	    top: -30vw;
+	    width: 76.5vw;
+	    left: 10vw;
+	}
+
+
+	.fifth-popup {
+		top: -17vw;
+	    width: 67vw;
+	    left: 18vw;
+	    z-index: 9;
+	}
+
+	.comic_seq_8-4 {
+        top: -37vw;
+	    width: 76.5vw;
+	    left: 11vw;
+	}
+
+
+	.sixth-popup {
+	    top: -40vw;
+	    width: 63vw;
+	    left: 20vw;
+	    z-index: 9;
+	}
 
 
 

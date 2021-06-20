@@ -282,15 +282,31 @@ $(function() {
 
 
 
-   /* SLIDE IN
-   $('.button-company').click(function(){
-          $('#news1').show();
-          $('#news1').css('transform', 'translateX(-500px)');
-      });*/
 
   $('.button-company').click(function(){
           $('#news1').show();
           $('#news1').css('opacity', '1');
+      });
+
+  $('.button-company2').click(function(){
+          $('#news2').show();
+          $('#news2').css('opacity', '1');
+      });
+  $('.button-company3').click(function(){
+          $('#news3').show();
+          $('#news3').css('opacity', '1');
+      });
+  $('#button-company4').click(function(){
+          $('#news4').show();
+          $('#news4').css('opacity', '1');
+      });
+  $('#button-company5').click(function(){
+          $('#news5').show();
+          $('#news5').css('opacity', '1');
+      });
+  $('#button-company6').click(function(){
+          $('#news6').show();
+          $('#news6').css('opacity', '1');
       });
 });
 
