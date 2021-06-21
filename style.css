@@ -347,8 +347,52 @@ Version: 0.0.1
 	    width: 78vw;
 	    left: 9.9vw;
 	}
-
-
+	.animation-footnote {
+	    top: 2vw;
+	    width: 30vw;
+	    left: 57vw;
+	}
+	.text-footnote {
+		top: 6vw;
+	    width: 27vw;
+	    left: 60vw;
+	}
+	.colours-text {
+		top: -12vw;
+	    width: 35vw;
+	    left: 13vw;
+	}
+	.paint-thing {
+	    top: -13vw;
+	    width: 40vw;
+	    left: 15vw;
+	    z-index: 9;
+	}
+	.rules2 {
+		top: -5vw;
+	    width: 50vw;
+	    left: 35vw;
+	}
+	.rules3 {
+		top: -1vw;
+	    width: 35vw;
+	    left: 12vw;
+	}
+	.comic_seq_1-3 {
+		top: -10vw;
+	    width: 42vw;
+	    left: 47.5vw;
+	}
+	.comic_seq_2-3 {
+	    top: -10vw;
+	    width: 73vw;
+	    left: 12vw;
+	}
+	.footnote5 {
+	    top: -15vw;
+	    width: 35vw;
+	    left: 55vw;
+	}
 
 
 
