@@ -1,6 +1,6 @@
 /*
 Theme Name: Flat Brain
-Author: 
+Author:
 Version: 0.0.1
 */
 
@@ -30,7 +30,7 @@ Version: 0.0.1
 
 		background-color: #D7F7FF;
 	}
-	
+
 	a {
 		text-decoration: none;
 		cursor: pointer !important;
@@ -44,9 +44,117 @@ Version: 0.0.1
 /* ////////////////////// */
 
 
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 10000; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+	outline-color: #00BEFF;
+	/* outline: 5px; */
+
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  background-color: #D7F7FF;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+	box-shadow:  5px 5px 20px #00BEFF;
+}
+
+.sidebar a {
+  padding: 8px 32px;
+  text-decoration: none;
+	font-family: helvetica;
+  font-size: 18px;
+  color: #00BEFF;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidebar a:not(.closebtn) {
+	float: right;
+	width: 200px;
+	margin-bottom: 0.5em;
+	margin-right: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-sizing: border-box;
+	cursor: pointer;
+	font-size: 20px;
+	border-radius: 25px;
+	box-shadow:  2px 2px 10px #00BEFF;
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	border: 2px solid #00BEFF;
+	display: inline-block;
+
+}
+
+.sidebar a:hover {
+  color: #00BEFF;
+	background-color: white;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 36px;
+	color: white;
+  /* margin-left: 50px; */
+}
+
+.openbtn {
+  font-pointer;
+  backgrsize: 5vw;
+  cursor: pound-color: #00BEFF;
+  color: #00BEFF;
+  position: fixed;
+  padding: 6px 20px;
+  outline-color: #00BEFF;
+	outline: 5px;
+	z-index: 99;
+	/* width: 4vw; */
+	left: 1vw;
+	top: 1vw;
+	cursor: pointer;
+	font-size: 24px;
+	border-radius: 25px;
+	/* background-image: url("exports/index-button.svg") 5px 5px 5px no-repeat; */
+	/* background-repeat: no-repeat; */
+	box-shadow:  2px 2px 10px #00BEFF;
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	border: 2px solid #00BEFF;
+
+}
+
+.openbtn:hover {
+  background-color: #00BEFF;
+	color: #D7F7FF;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+	color: #00BEFF;
+}
 
 
-.P1, .P2, .P3, .P4 {
+
+.P1, .P2, .P3, .P4, .P5 {
 	position: absolute;
 	width: 100vw;
 	height: 100vh;
@@ -58,6 +166,7 @@ Version: 0.0.1
 .P2 {left: 100vw;}
 .P3 {left: 200vw;}
 .P4 {left: 300vw;}
+.P5 {left: 400vw;}
 
 
 .container {
@@ -91,17 +200,31 @@ Version: 0.0.1
 	display: block;
 }
 
-.index-button {
+.white-background2 {
+	position: absolute;
+	top: 40vw;
+	width: 82vw;
+	left: 9vw;
+	display: block;
+
+}
+
+/* .index-button {
 	position: fixed;
 	width: 12vw;
 	left: 1vw;
 	top: 1vw;
 	z-index: 10;
 	cursor: pointer;
-}
+} */
 
 
 .svg-object {
+	position: relative;
+	display: block;
+}
+
+.svg-object-over {
 	position: relative;
 	display: block;
 }
@@ -111,7 +234,7 @@ Version: 0.0.1
 
 /*   PAGE 1    */
 	.flatbrain-window {
-		top: 5vw;
+		top: 4vw;
 		width: 45vw;
 		left: 35vw;
 		z-index: 1;
@@ -141,7 +264,7 @@ Version: 0.0.1
 	}
 
 	.comic_seq_2-container {
-		top: -48vw;
+		top: -50vw;
 		width: 58vw !important;
 		left: 26.5vw;
 	}
@@ -149,30 +272,30 @@ Version: 0.0.1
 		cursor: pointer;
 	}
 	.comic_seq_3 {
-		top: -38vw;
+		top: -45vw;
 		width: 50vw;
 		left: 25vw;
 	}
 
 	.comic_seq_4 {
-		top: -30vw;
+		top: -42vw;
 		width: 50vw;
 		left: 25vw;
 	}
 
 	.footnote_1 {
-		top: -17vw;
+		top: -34vw;
 		width: 30vw;
 		left: 11vw;
 	}
 
 	.comic_seq_5 {
-		top: -30vw;
+		top: -57vw;
 		width: 35vw;
 		left: 50vw;
 	}
 	.comic_seq_6-container {
-		top: -23vw;
+		top: -46vw;
 		width: 60vw;
 		left: 18vw;
 	}
@@ -234,16 +357,16 @@ Version: 0.0.1
 	.prevC-two,
 	.prevC-three {display: none;}
 
-	
+
 
 	.comic_seq_7 {
-		top: -7vw;
+		top: -20vw;
 		width: 35vw;
 		left: 20vw;
 	}
 
 	.footnote-2 {
-		top: -67vw;
+		top: -90vw;
 	    width: 30vw;
 	    left: 58vw;
 	}
@@ -257,9 +380,16 @@ Version: 0.0.1
 	    opacity: 0;
 	}
 
+	.anatomy_instruction{
+		top: -67vw;
+			width: 57vw;
+			left: 22vw;
+			z-index: 99999;
+	}
+
 
 	.anatomy-container {
-		top: -48vw;
+		top: -70vw;
 	    width: 57vw;
 	    left: 22vw;
 	}
@@ -270,14 +400,14 @@ Version: 0.0.1
 
 
 	.comic_seq_7-container {
-		top: -31vw;
+		top: -65vw;
 		width: 50vw;
 		left: 38vw;
 	}
 
 
 
-	
+
 
 
 
@@ -288,43 +418,52 @@ Version: 0.0.1
 		width: 42vw;
 		left: 18vw;
 	}
-	.comic_seq_1-2 {
+	.city{
 		top: 12vw;
-		width: 33vw;
+		width: 79vw;
 		left: 9.9vw;
 	}
-	.flat_sign {
-		top: 15vw;
-		width: 50vw;
-		left: 38.55vw;
-	}
+
+
 	.comic_seq_2-2 {
-		top: 40vw;
+		top: 13vw;
 		width: 50vw;
 		left: 38.55vw;
 	}
 	.comic_seq_3-2 {
-		top: 65vw;
-		width: 64.5vw;
-		left: 12vw;
+		top: 12vw;
+    width: 56.5vw;
+    left: 24vw;
 	}
+	.footnote_6{
+		top: 22.5vw;
+width: 30vw;
+left: 11vw;
+	}
+
 	.comic_seq_4-2 {
-		top: 72vw;
-		width: 34vw;
-    	left: 54.65vw;
+		top: -27vw;
+width: 33vw;
+left: 55.65vw;
 	}
 	.comic_seq_5-2 {
-		top: 85vw;
-		width: 64.5vw;
-		left: 12vw;
+		top: -5vw;
+width: 58vw;
+left: 19vw;
 	}
 	.comic_seq_6-2 {
-		top: 92vw;
+		top: -11vw;
 		width: 75vw;
 		left: 13.6vw;
+
+	}
+	.comic_seq_6_6 {
+		top: -5vw;
+	width: 46vw;
+	left: 26vw;
 	}
 	.end_2-container {
-		top: 110vw;
+		    top: 2vw;
 		width: 65vw !important;
 		left: 16.5vw;
 	}
@@ -343,9 +482,9 @@ Version: 0.0.1
 		left: 42vw;
 	}
 	.first_part_3 {
-		top: 10vw;
-	    width: 78vw;
-	    left: 9.9vw;
+		top: 7vw;
+width: 78.4vw;
+left: 10.1vw;
 	}
 	.animation-footnote {
 	    top: 2vw;
@@ -353,28 +492,28 @@ Version: 0.0.1
 	    left: 57vw;
 	}
 	.text-footnote {
-		top: 6vw;
+		top: 5vw;
 	    width: 27vw;
 	    left: 60vw;
 	}
 	.colours-text {
-		top: -12vw;
+		top: -22vw;
 	    width: 35vw;
 	    left: 13vw;
 	}
 	.paint-thing {
-	    top: -13vw;
+	    top: -23vw;
 	    width: 40vw;
 	    left: 15vw;
 	    z-index: 9;
 	}
 	.rules2 {
-		top: -5vw;
+		top: -15vw;
 	    width: 50vw;
 	    left: 35vw;
 	}
 	.rules3 {
-		top: -1vw;
+		top: -11vw;
 	    width: 35vw;
 	    left: 12vw;
 	}
@@ -384,33 +523,33 @@ Version: 0.0.1
 	    left: 47.5vw;
 	}
 	.comic_seq_2-3 {
-	    top: -10vw;
-	    width: 73vw;
-	    left: 12vw;
+	    top: -30vw;
+	    width: 75vw;
+	    left: 11vw;
 	}
 	.footnote5 {
-	    top: -15vw;
+	    top: -36vw;
 	    width: 35vw;
 	    left: 55vw;
 	}
 	.comic_seq_3-3 {
-		top: -75vw;
+		top: -99vw;
 	    width: 73vw;
 	    left: 12vw;
 	}
 	.comic_seq_4-3 {
-	    top: -78vw;
+	    top: -98vw;
 	    width: 78vw;
 	    left: 12.5vw;
 	}
 	.comic_seq_5-3 {
-	    top: -73vw;
+	       top: -105vw;
 	    width: 68vw;
 	    left: 10.5vw;
 	}
 
 	.comic_seq_6-3 {
-	    top: -88vw;
+	    top: -120vw;
 	    width: 78.6vw;
 	    left: 9.95vw;
 	}
@@ -433,21 +572,21 @@ Version: 0.0.1
 	    left: 9.95vw;
 	}
 	.comic_seq_2-4 {
-		top: -5vw;
-	    width: 64vw;
-	    left: 18vw;
+		top: -13vw;
+    width: 70vw;
+    left: 15vw;
 	}
 	.comic_seq_3-4 {
-		top: 4vw;
-	    width: 64vw;
-	    left: 18vw;
+		top: -20vw;
+    width: 64vw;
+    left: 18vw;
 	}
 
 
 
 
 	.first-popup {
-		top: 20vw;
+		top: -17vw;
 	    width: 67vw;
 	    left: 16vw;
 	    z-index: 9;
@@ -456,14 +595,14 @@ Version: 0.0.1
 
 
 	.comic_seq_4-4 {
-		top: 2vw;
+		top: -36vw;
     	width: 77vw;
     	left: 10vw;
 	}
 
 
 	.second-popup {
-		top: 3vw;
+	    top: -34vw;
 		width: 67vw;
 	    left: 18vw;
 	    z-index: 9;
@@ -471,66 +610,80 @@ Version: 0.0.1
 
 
 	.comic_seq_5-4 {
-	    top: 1vw;
+	    top: -41vw;
+	    width: 82.6vw;
+	    left: 6vw;
+	}
+	.flat {
+	    top: -41vw;
 	    width: 82.6vw;
 	    left: 6vw;
 	}
 
 
 	.third-popup {
-		top: 4vw;
+		    top: -36vw;
 		width: 67vw;
 	    left: 18vw;
 	    z-index: 9;
 	}
 
 	.comic_seq_6-4 {
-	    top: -22vw;
+	        top: -62vw;
 	    width: 76vw;
 	    left: 10vw;
 	}
 
 
 	.fourth-popup {
-		top: -17vw;
+		    top: -58vw;
 		width: 68vw;
 	    left: 16vw;
 	    z-index: 9;
 	}
 
 	.comic_seq_7-4 {
-	    top: -30vw;
+	    top: -72vw;
 	    width: 76.5vw;
 	    left: 10vw;
 	}
 
 
 	.fifth-popup {
-		top: -17vw;
+		top: -67vw;
 	    width: 67vw;
 	    left: 18vw;
 	    z-index: 9;
 	}
 
 	.comic_seq_8-4 {
-        top: -37vw;
+      top: -92vw;
 	    width: 76.5vw;
 	    left: 11vw;
 	}
 
 
 	.sixth-popup {
-	    top: -40vw;
+	    top: -101vw;
 	    width: 63vw;
 	    left: 20vw;
 	    z-index: 9;
 	}
 
 	.end-page-4 {
-	    top: -35vw;
+	    top: -102vw;
 	    width: 67vw;
 	    left: 15vw;
 	}
+
+
+/* PAGE 5 */
+
+ .fullpage5{
+	 top: 8vw;
+	 width: 76vw;
+	 left: 10vw;
+ }
 
 
 
