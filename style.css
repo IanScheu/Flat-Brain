@@ -364,7 +364,7 @@ Version: 0.0.1
 
 
 	.comic_seq_7 {
-		top: -20vw;
+		top: -27vw;
 		width: 35vw;
 		left: 20vw;
 	}
@@ -376,7 +376,7 @@ Version: 0.0.1
 	}
 	.link-humaaans {
 		cursor: pointer;
-	    top: -69vw;
+	    top: -92.5vw;
 	    width: 21vw;
 	    height: 1.6vw;
 	    left: 63vw;
@@ -384,16 +384,15 @@ Version: 0.0.1
 	    opacity: 0;
 	}
 
-	.anatomy_instruction{
-		top: -67vw;
-			width: 57vw;
-			left: 22vw;
-			z-index: 99999;
+	.anatomy_instruction {
+			top: -75vw;
+    	width: 17vw;
+    	left: 42vw;
 	}
 
 
 	.anatomy-container {
-		top: -70vw;
+		top: -75vw;
 	    width: 57vw;
 	    left: 22vw;
 	}
@@ -404,7 +403,7 @@ Version: 0.0.1
 
 
 	.comic_seq_7-container {
-		top: -65vw;
+		top: -70vw;
 		width: 50vw;
 		left: 38vw;
 	}
