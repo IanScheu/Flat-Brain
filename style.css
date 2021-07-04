@@ -589,7 +589,7 @@ left: 10.1vw;
     left: 15vw;
 	}
 	.comic_seq_3-4 {
-		top: 0vw;
+		top: -13vw;
     width: 64vw;
     left: 18vw;
 	}
@@ -598,7 +598,7 @@ left: 10.1vw;
 
 
 	.first-popup {
-	    top: 13vw;
+	    top: 0vw;
 	    width: 65vw;
 	    left: 20vw;
 	    z-index: 9;
@@ -607,14 +607,14 @@ left: 10.1vw;
 
 
 	.comic_seq_4-4 {
-			top: 2vw;
+			top: -11vw;
     	width: 77vw;
     	left: 10vw;
 	}
 
 
 	.second-popup {
-	    top: 6vw;
+	    top: -7vw;
 			width: 65vw;
 	    left: 15vw;
 	    z-index: 9;
@@ -622,68 +622,68 @@ left: 10.1vw;
 
 
 	.comic_seq_5-4 {
-	    top: -3vw;
+	    top: -16vw;
 	    width: 82.6vw;
 	    left: 6vw;
 	}
 	.flat {
-	    top: 3vw;
+	    top: -10vw;
 	    width: 82.6vw;
 	    left: 6vw;
 	}
 
 
 	.third-popup {
-		  top: 3vw;
+		  top: -10vw;
 			width: 65vw;
 	    left: 20vw;
 	    z-index: 9;
 	}
 
 	.comic_seq_6-4 {
-	    top: -20vw;
+	    top: -35vw;
 	    width: 76vw;
 	    left: 10vw;
 	}
 
 
 	.fourth-popup {
-		  top: -19vw;
+		  top: -32vw;
 			width: 65vw;
 	    left: 15vw;
 	    z-index: 9;
 	}
 
 	.comic_seq_7-4 {
-	    top: -25vw;
+	    top: -38vw;
 	    width: 76.5vw;
 	    left: 10vw;
 	}
 
 
 	.fifth-popup {
-			top: -21vw;
+			top: -34vw;
 	    width: 65vw;
 	    left: 20vw;
 	    z-index: 9;
 	}
 
 	.comic_seq_8-4 {
-      top: -36vw;
+      top: -49vw;
 	    width: 76.5vw;
 	    left: 11vw;
 	}
 
 
 	.sixth-popup {
-	    top: -31vw;
+	    top: -44vw;
 	    width: 65vw;
 	    left: 16vw;
 	    z-index: 9;
 	}
 
 	.end-page-4 {
-	    top: -20vw;
+	    top: -33vw;
 	    width: 67vw;
 	    left: 15vw;
 	}
