@@ -5,22 +5,32 @@
 
   }
 
-  function closeNav() {
+  function closeNav( ) {
     $("#mySidebar").css( 'width', '0');
     $("#main").css( 'margin-left', '0');
   }
 $(function() {
-  
-  // SETUP FOR PARALLAX SCROLLING
-  // $( '.P1, .P2, .P3, .P4, .P5' ).scroll( function( e ) {
-  //   var scrolltarget = $( e.target );
-  //   var scrolltop = scrolltarget.scrollTop( );
-  //   var scrollitems = scrolltarget.find( '*[data-scroll-factor]' );
-  //   scrollitems.each( function(  ) {
-  //     $( this ).css( 'margin-top', scrolltop + 'px' );
-  //   } );
-  // } )
+  $( 'body' ).click( function( event ) {
+    if ( !event.target.classList.contains ( 'openbtn' ) ) {
+      if ( !event.target.classList.contains( 'sidebar' ) )
+        if ( !event.target.parentNode.classList.contains( 'sidebar' ) )
+          closeNav( );
+    }
+  } );
 
+  $( '#mySidebar a, svg a[href="#P1"], svg a[href="#P2"], svg a[href="#P3"], svg a[href="#P4"], svg a[href="#P5"]' ).click( function( event  ) {
+    event.preventDefault( );
+
+    var scrolloffset = $( this ).attr( 'href' ).split( 'P').pop( ) - 1;
+    if ( scrolloffset != 0 ) scrolloffset += '00vw';
+
+    $( '.page' ).css( 'transform', 'translateX(-' + scrolloffset + ')' );
+
+    $( '.sidebar a').removeClass( 'selected' );
+    $( '.sidebar a[href="' + $( this ).attr( 'href' ) + '"]' ).addClass( 'selected' );
+  } );
+
+  $( '.sidebar a[href="#P1"]' ).addClass( 'selected' );
 
     // HEAD
       $('.nextA-one').click(function(){
