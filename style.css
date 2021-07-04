@@ -380,8 +380,8 @@ Version: 0.0.1
 	    width: 21vw;
 	    height: 1.6vw;
 	    left: 63vw;
-	    background-color: white;
 	    opacity: 0;
+	    z-index: 99999;
 	}
 
 	.anatomy_instruction {
@@ -442,6 +442,15 @@ Version: 0.0.1
 		top: 22.5vw;
 width: 30vw;
 left: 11vw;
+	}
+	.link-arena {
+			cursor: pointer;
+	    top: 18vw;
+	    width: 26vw;
+	    height: 4vw;
+	    left: 11vw;
+	    opacity: 1;
+	    z-index: 99999;
 	}
 
 	.comic_seq_4-2 {
