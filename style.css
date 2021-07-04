@@ -520,10 +520,22 @@ left: 10.1vw;
 	    z-index: 9;
 	}
 	.rules2 {
-		top: -15vw;
-	    width: 50vw;
-	    left: 35vw;
+		  top: -16vw;
+	    width: 45vw;
+	    left: 39vw;
 	}
+
+
+	#button_change_1, #button_change_2, #button_change_3, #button_change_4, #button_change_5 {
+		z-index: 99999999;
+		cursor: pointer;
+	}
+	#button_change_2, #button_change_3, #button_change_4, #button_change_5 {
+		display: none;
+	}
+
+
+
 	.rules3 {
 		top: -11vw;
 	    width: 35vw;

@@ -269,72 +269,100 @@ $(function() {
           $('.pants-container').addClass('pants-one');
       });
 
-  $('.arm-trigger').hover(function() {
-    $('#arm-hover').css('opacity', '1');
-  }, function() {
-    // on mouseout, reset the background colour
-    $('#arm-hover').css('opacity', '0');
-  });
-
-  $('.crotch-trigger').hover(function() {
-    $('#crotch-hover').css('opacity', '1');
-  }, function() {
-    // on mouseout, reset the background colour
-    $('#crotch-hover').css('opacity', '0');
-  });
-
-  $('.head-trigger').hover(function() {
-    $('#head-hover').css('opacity', '1');
-  }, function() {
-    // on mouseout, reset the background colour
-    $('#head-hover').css('opacity', '0');
-  });
-
-  $('.heart-trigger').hover(function() {
-    $('#heart-hover').css('opacity', '1');
-  }, function() {
-    // on mouseout, reset the background colour
-    $('#heart-hover').css('opacity', '0');
-  });
-
-  $('.head-right-trigger').hover(function() {
-    $('#head-right-hover').css('opacity', '1');
-  }, function() {
-    // on mouseout, reset the background colour
-    $('#head-right-hover').css('opacity', '0');
-  });
 
 
+    // ATANOMY
 
-
-
-
-
-  $('.button-company').click(function(){
-          $('#news1').show();
-          $('#news1').css('opacity', '1');
+      $('.arm-trigger').hover(function() {
+        $('#arm-hover').css('opacity', '1');
+      }, function() {
+        // on mouseout, reset the background colour
+        $('#arm-hover').css('opacity', '0');
       });
 
-  $('.button-company2').click(function(){
-          $('#news2').show();
-          $('#news2').css('opacity', '1');
+      $('.crotch-trigger').hover(function() {
+        $('#crotch-hover').css('opacity', '1');
+      }, function() {
+        // on mouseout, reset the background colour
+        $('#crotch-hover').css('opacity', '0');
       });
-  $('.button-company3').click(function(){
-          $('#news3').show();
-          $('#news3').css('opacity', '1');
+
+      $('.head-trigger').hover(function() {
+        $('#head-hover').css('opacity', '1');
+      }, function() {
+        // on mouseout, reset the background colour
+        $('#head-hover').css('opacity', '0');
       });
-  $('#button-company4').click(function(){
-          $('#news4').show();
-          $('#news4').css('opacity', '1');
+
+      $('.heart-trigger').hover(function() {
+        $('#heart-hover').css('opacity', '1');
+      }, function() {
+        // on mouseout, reset the background colour
+        $('#heart-hover').css('opacity', '0');
       });
-  $('#button-company5').click(function(){
-          $('#news5').show();
-          $('#news5').css('opacity', '1');
+
+      $('.head-right-trigger').hover(function() {
+        $('#head-right-hover').css('opacity', '1');
+      }, function() {
+        // on mouseout, reset the background colour
+        $('#head-right-hover').css('opacity', '0');
       });
-  $('#button-company6').click(function(){
-          $('#news6').show();
-          $('#news6').css('opacity', '1');
-      });
+
+
+
+    // COMPANY POPUPS
+
+    $('.button-company').click(function(){
+            $('#news1').show();
+            $('#news1').css('opacity', '1');
+        });
+
+    $('.button-company2').click(function(){
+            $('#news2').show();
+            $('#news2').css('opacity', '1');
+        });
+    $('.button-company3').click(function(){
+            $('#news3').show();
+            $('#news3').css('opacity', '1');
+        });
+    $('#button-company4').click(function(){
+            $('#news4').show();
+            $('#news4').css('opacity', '1');
+        });
+    $('#button-company5').click(function(){
+            $('#news5').show();
+            $('#news5').css('opacity', '1');
+        });
+    $('#button-company6').click(function(){
+            $('#news6').show();
+            $('#news6').css('opacity', '1');
+        });
+
+
+
+
+    // BUTTON CHANGES
+
+      $('#button1').click(function(){
+              $('#button_change_1').hide();
+              $('#button_change_2').show();
+          });
+      $('#button2').click(function(){
+              $('#button_change_2').hide();
+              $('#button_change_3').show();
+          });
+      $('#button3').click(function(){
+              $('#button_change_3').hide();
+              $('#button_change_4').show();
+          });
+      $('#button4').click(function(){
+              $('#button_change_4').hide();
+              $('#button_change_5').show();
+          });
+      $('#button5').click(function(){
+              $('#button_change_5').hide();
+              $('#button_change_1').show();
+          });
 });
 
 
